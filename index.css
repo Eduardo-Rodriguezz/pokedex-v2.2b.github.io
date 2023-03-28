@@ -1,0 +1,40 @@
+
+#title {
+    color: rgb(63, 138, 209);
+    text-shadow: 5px 2px 2px rgb(98, 60, 116);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+#principal {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.pokemon-block {
+    color: #fff;
+    border-radius: 8px;
+    background: rgb(76, 124, 168);
+    border: 3px solid rgb(98, 60, 116);
+    width: 150px;
+    text-align: center; 
+    font-size: 0.8rem;
+    box-shadow: 8px 5px 5px rgb(46, 76, 100);
+    transition: all 0.2s ease-in-out;
+}
+
+.img-container > img{
+    padding-top: 10px;
+    height: 80px;
+}
+
+.pokemon-block:hover {
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+   cursor: pointer;
+   transform: scale(1.1);
+   transition: all 0.2s ease-in-out;
+   background: rgb(126, 81, 122);
+   
+}
