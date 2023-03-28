@@ -31,7 +31,7 @@
 }
 
 .pokemon-block:hover {
-    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+   box-shadow: 12px 8px 8px rgb(46, 76, 100);
    cursor: pointer;
    transform: scale(1.1);
    transition: all 0.2s ease-in-out;
